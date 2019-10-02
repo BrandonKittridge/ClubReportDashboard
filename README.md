@@ -1,2 +1,0 @@
-# ClubReportDashboard
-Senior Project
