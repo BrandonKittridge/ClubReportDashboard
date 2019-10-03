@@ -1,0 +1,84 @@
+﻿<a asp-area="" asp-controller="Admin" asp-action="AdminUserList"> < Back</a>
+<br><br>
+
+<h1>Create New User:</h1>
+<br>
+
+<form id="newUserForm">
+    <label class="newUser">
+        First Name:
+    </label>
+    <br>
+    <input type="text" name="firstName" required class="newUser">
+    <br>
+
+    <label class="newUser">
+        <br>Middle Name:
+    </label>
+    <br>
+    <input type="text" name="middleName" class="newUser">
+    <br>
+
+    <label class="newUser">
+        <br> Last Name:
+    </label>
+    <br>
+    <input type="text" name="lastName" required class="newUser">
+    <br>
+
+    <label class="newUser">
+        <br> Pin #:
+    </label>
+    <br>
+    <input type="text" name="pin" required minlength="4" maxlength="4" class="newUser">
+    <br>
+
+    <label class="newUser">
+        <br> Interests:
+    </label>
+    <br>
+
+    <div id="interests"></div>
+
+    <script>
+        //using script with a dummy array instead of hardcoding in case we want to implement a feature to configure possible interests then pull these options from data
+        var interestsDummyArray = ["Volunteering", "Social Events", "Career Opportunities", "Learning New Skills"];
+        interestsDummyArray.forEach(addSelector);
+
+        function addSelector(item, index) {
+            document.getElementById("interests").innerHTML += `<input type="checkbox" class="interests" name="` + item + `" value="` + item + `">  ` + item + `<br>`;
+        }
+    </script>
+
+    <br>
+
+    <label class="newUser">
+        <br> <a href="">Upload an image +</a> <br> (placeholer in case this feature is implemented)
+    </label>
+    <br><br>
+
+    <button type="submit" class="createButton">Create +</button>
+
+    <!--
+    <style>
+        .createButton {
+            opacity: 0;
+            position: fixed;
+        }
+        .button {
+            height: 80px;
+            width: 180px;
+            border-style:solid;
+            border-color: aqua;
+            border-radius: 0px;
+            border-width: 5px;
+
+        }
+    </style>
+
+    <label class="submitButtonContainer">
+        <button type="submit" class="createButton">Create +</button>
+        <span class="button"></span>
+    </label>
+    -->
+</form>
