@@ -68,7 +68,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(53, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af42e9cbc7ca4237b1a254215ede48f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53d1e0fde5e846b682ae4e10ca991e6f", async() => {
                 BeginContext(118, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -94,7 +94,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<br><br>\r\n\r\n<h2>Monthly Volunteer Report</h2>\r\n<br />\r\n<br />\r\n<p></p>\r\n");
             EndContext();
             BeginContext(203, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4963c391a5fd4aaaad9e97ef6074e5b3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf5a27f096164b9ca76049e69cab14ec", async() => {
                 BeginContext(234, 64, true);
                 WriteLiteral("\r\n    <input type=\"submit\" value=\"Generate Monthly Reports\" />\r\n");
                 EndContext();
