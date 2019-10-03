@@ -25,5 +25,10 @@ namespace ClubReportDashboard.Controllers
         {
             return View();
         }
+
+        public IActionResult MonthlyReport()
+        {
+            return View();
+        }
     }
 }
