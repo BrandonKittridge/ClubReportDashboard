@@ -11799,23 +11799,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Petrucci\\.nuget\\packages\\": {},
+    "C:\\Users\\thena\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Petrucci\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+      "projectUniqueName": "C:\\Users\\thena\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
       "projectName": "ClubReportDashboard",
-      "projectPath": "C:\\Users\\Petrucci\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
-      "packagesPath": "C:\\Users\\Petrucci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Petrucci\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
+      "projectPath": "C:\\Users\\thena\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+      "packagesPath": "C:\\Users\\thena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thena\\source\\repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Petrucci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thena\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

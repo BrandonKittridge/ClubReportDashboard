@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<h2>Activity Detail Form</h2>
+<div class="container">
+    <div class="master">
+        <h4>Activity</h4>
+        <table class="table table-responsive">
+            <tr>
+                <td>Activity Id</td>
+                <td>
+                    <input type="text" id="activityId" class="form-control" />
+                    <span class="has-error"> Activity id required</span>
+                </td>
+                <td>Activity Date</td>
+                <td>
+                    <input type="text" id="activityDate" class="form-control" />
+                    <span class="has-error"> Valid Date required(ex: MM-dd-yyyy)</span>
+                </td>
+            </tr>
+            <tr>
+                <td> Type</td>
+                <td colspan="4">
+                    <textarea id="type" class="form-control"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="details">
+        <h4>
+            Activity Information
+        </h4>
+        <table class="table-responsive">
+            <div id=" activityInformation">
+                <table class="table table-responsive" id="activitydetailinformation"></table>
+                <span id="activityError" style="color:red"></span>
+            </div>
+            <div style="padding: 10px 0; text-align:right">
+                <input id="submit" type="button" value="Save" class="btn btn-warning" style="padding:10px 20px" />
+            </div>
+            <tr>
+                <td>Address</td>
+                <td>Organization</td>
+                <td> &nbsp;</td>
+
+            </tr>
+            <tr class="mycontainer" id="mainrow">
+                <td>
+                    <select id="organizationAddress" class="address form-control" onchange="LoadAddress(this)">
+                        <option> Blanding Blvd</option>
+                        <option> GreenCove Spring</option>
+
+                    </select>
+                    <span class="error">Select Address</span>
+                </td>
+                <td>
+                    <select id="organization" class="organization form-control">
+                        <option>Select</option>
+                    </select>
+                    <span class="error">Select Address</span>
+                </td>
+                <td>
+                    <input type="button" id="add" value="add" style="width:80px" class="btn btn-success" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="//code.jquery.com/u/1.11.4/themes/smoothness/jquery-ul.css" />
+<script src="//code.jquery.com/u/1.11.4/jquery-ui.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('#activityDate').datepicker({
+            dateformat:'mm-dd-yy'
+        })
+    })
+</script>
+<style>
+    span.error {
+        display: block;
+        visibility: hidden;
+        color: aqua;
+        font-size: 90%;
+    }
+
+    tr.error {
+        background-color: rgba(255,0,0,0,35);
+    }
+</style>
