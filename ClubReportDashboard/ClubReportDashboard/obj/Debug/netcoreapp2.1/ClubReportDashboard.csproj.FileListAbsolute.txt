@@ -101,3 +101,4 @@ C:\Users\n01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubRepo
 C:\Users\n01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.dll
 C:\Users\n01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.pdb
 C:\Users\n01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.csproj.CopyComplete
+C:\Users\n01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\GeneratedReport.g.cshtml.cs

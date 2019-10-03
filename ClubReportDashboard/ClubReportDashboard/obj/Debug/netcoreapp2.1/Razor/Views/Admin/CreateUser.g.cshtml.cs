@@ -56,7 +56,7 @@ using ClubReportDashboard.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4fa48c9eaccb4f128f16594106e7986d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b2dc556298c47e3b468df6a3f9a2930", async() => {
                 BeginContext(65, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -82,7 +82,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<br><br>\r\n\r\n<h1>Create New User:</h1>\r\n<br>\r\n\r\n");
             EndContext();
             BeginContext(125, 2135, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "906f36aa36ef47a7adb5e9651ed230cd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e752c2f2b1784e268760c245f5a50b15", async() => {
                 BeginContext(148, 2105, true);
                 WriteLiteral(@"
     <label class=""newUser"">
