@@ -138,3 +138,4 @@ C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubRepo
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.dll
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.pdb
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.csproj.CopyComplete
+C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditUser.g.cshtml.cs
