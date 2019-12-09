@@ -56,7 +56,7 @@ using ClubReportDashboard.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5ca38e736add4ad399bad812abec1e82", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4e415f6ab2548b58de93e01076cc1b5", async() => {
                 BeginContext(56, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -82,7 +82,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<br><br>\r\n");
             EndContext();
             BeginContext(79, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5697c4eb9d040e1ba86b1e05377db7d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "edfecb7a88624f8e90a1cdfcd6ba6988", async() => {
                 BeginContext(141, 17, true);
                 WriteLiteral("Create a new user");
                 EndContext();
@@ -108,7 +108,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(170, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce554ec440684665903b6096e1d5ef44", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e06fcef104084297bc4ce4cfea2bea14", async() => {
                 BeginContext(230, 18, true);
                 WriteLiteral("Edit Existing User");
                 EndContext();
