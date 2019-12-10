@@ -15,7 +15,7 @@ namespace ClubReportDashboard.Controllers
             return View();
         }
 
-        public IActionResult Admin()
+        public IActionResult AdminLogin()
         {
             return View();
         }
