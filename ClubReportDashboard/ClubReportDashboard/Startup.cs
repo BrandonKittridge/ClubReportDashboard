@@ -33,7 +33,7 @@ namespace ClubReportDashboard
                 services.AddDbContext<MyDatabaseContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
                 // Automatically perform database migration
-                services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
+                //services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
             }
             //else
             //    services.AddDbContext<MyDatabaseContext>(options =>
