@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "AdminLogin";
+}
+
+<h1>Login Below</h1>
+<form>
+    Username: <br />
+    <input type="text" name="username"><br>
+    Password: <br />
+    <input type="password" name="password"><br>
+    <input type="button" value="Login">
+    <input type="button" value="Cancel" onclick="location.href='@Url.Action("Index", "Home")'" />
+</form>
+
