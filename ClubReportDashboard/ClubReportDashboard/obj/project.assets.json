@@ -5884,7 +5884,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "aRNNuFL+UOVJuujgTZsfE/zyA6joaYJLJwjQVSFSeMZdRVIMw4FPSPcStNtrBTeIeGTu+ehzI+l84v6KpQRUVQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
@@ -12530,28 +12530,29 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.EntityFrameworkCore >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michael Parks\\.nuget\\packages\\": {},
+    "C:\\Users\\brank\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael Parks\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+      "projectUniqueName": "C:\\Users\\brank\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
       "projectName": "ClubReportDashboard",
-      "projectPath": "C:\\Users\\Michael Parks\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
-      "packagesPath": "C:\\Users\\Michael Parks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michael Parks\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
+      "projectPath": "C:\\Users\\brank\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+      "packagesPath": "C:\\Users\\brank\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brank\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michael Parks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brank\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12586,7 +12587,12 @@
             "target": "Package",
             "version": "[2.1.2, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
