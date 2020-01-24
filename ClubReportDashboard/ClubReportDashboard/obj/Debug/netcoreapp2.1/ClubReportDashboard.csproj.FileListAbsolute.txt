@@ -140,3 +140,5 @@ C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubRepo
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\ClubReportDashboard.csproj.CopyComplete
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditUser.g.cshtml.cs
 C:\Users\Petrucci\Source\Repos\ClubReportDashboard2\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AdminUserList2.g.cshtml.cs
+C:\Users\N01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AdminUserList2.g.cshtml.cs
+C:\Users\N01068984\Source\Repos\ClubReportDashboard\ClubReportDashboard\ClubReportDashboard\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditUser.g.cshtml.cs
