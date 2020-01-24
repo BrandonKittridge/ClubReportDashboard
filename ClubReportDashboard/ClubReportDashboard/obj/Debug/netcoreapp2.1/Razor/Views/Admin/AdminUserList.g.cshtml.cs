@@ -56,7 +56,7 @@ using ClubReportDashboard.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "097b9b0237c645f2a16d4af839662695", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31935380858a46e1b4ce036c977af80e", async() => {
                 BeginContext(56, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -82,7 +82,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<br />\r\n<br />\r\n<br />\r\n\r\n<br><br>\r\n");
             EndContext();
             BeginContext(105, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a058637d3784855a18ad7eaff13b6c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19db74b92aef44988c2d37ab163fea9d", async() => {
                 BeginContext(167, 17, true);
                 WriteLiteral("Create a new user");
                 EndContext();
@@ -108,7 +108,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(196, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26d0021c3c2b45c28a7e32abaa6a8c52", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "160444afca674b9f92ce612e058dee39", async() => {
                 BeginContext(256, 18, true);
                 WriteLiteral("Edit Existing User");
                 EndContext();

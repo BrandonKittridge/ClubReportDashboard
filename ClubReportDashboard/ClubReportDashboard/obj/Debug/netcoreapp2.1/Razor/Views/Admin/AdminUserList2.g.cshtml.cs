@@ -56,7 +56,7 @@ using ClubReportDashboard.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91a44c06c7b1476d8dcc5fc36f0ef0c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3810c982ee4dc6a061028eded552c1", async() => {
                 BeginContext(56, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -101,7 +101,7 @@ using ClubReportDashboard.Models;
 ");
             EndContext();
             BeginContext(418, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b8df96f243d44b293af064110b33aa3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe717990fac7457fa0603a95d4afc2d7", async() => {
                 BeginContext(480, 17, true);
                 WriteLiteral("Create a new user");
                 EndContext();
@@ -127,7 +127,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(509, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4d0a75f6fc44266845ce306d68b31bb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bbc2937dbd20431d99c6ad3d67454f6d", async() => {
                 BeginContext(569, 18, true);
                 WriteLiteral("Edit Existing User");
                 EndContext();
