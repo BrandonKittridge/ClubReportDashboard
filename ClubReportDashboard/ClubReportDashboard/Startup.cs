@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using ClubReportDashboard.Models;
 
 namespace ClubReportDashboard
 {
@@ -24,6 +26,21 @@ namespace ClubReportDashboard
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // Use SQL Database if in Azure, otherwise, use SQLite
+            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+            {
+                services.AddDbContext<MyDatabaseContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
+                // Automatically perform database migration
+                services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
+            }
+            //else
+            //    services.AddDbContext<MyDatabaseContext>(options =>
+            //            options.UseSqlite("Data Source=localdatabase.db"));
+
+            
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
