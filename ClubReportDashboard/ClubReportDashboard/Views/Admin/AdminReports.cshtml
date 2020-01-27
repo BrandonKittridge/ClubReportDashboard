@@ -1,1 +1,10 @@
-﻿<a asp-area="" asp-controller="Admin" asp-action="Index"> < Back</a>
+﻿
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<a asp-area="" asp-controller="Admin" asp-action="Index"> < Back</a>
+<br><br>
+
+<input type="button" value="Monthly Report" onclick="location.href='@Url.Action("MonthlyReport", "Admin")'" />
+<input type="button" value="Quarterly Report" onclick="location.href='@Url.Action("QuarterlyReport", "Admin")'" />

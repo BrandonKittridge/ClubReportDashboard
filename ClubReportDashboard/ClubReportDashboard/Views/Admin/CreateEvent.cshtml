@@ -1,0 +1,45 @@
+﻿<a asp-area="" asp-controller="Admin" asp-action="AdminEventsList"> < Back</a>
+<br><br>
+
+<h1>Create New Event:</h1>
+<br>
+
+<form id="newEventForm">
+    <label class="newEvent">
+        Title:
+    </label>
+    <br>
+    <input type="text" name="title" required class="newEvent">
+    <br>
+
+    <label class="newEvent">
+        <br>Location:
+    </label>
+    <br>
+    <input type="text" name="location" class="newEvent">
+    <br>
+
+    <label class="newEvent">
+        <br> Type:
+    </label>
+    <br>
+    <input type="text" name="type" required class="newEvent">
+    <br>
+
+    <label class="newEvent">
+        <br> Date:
+    </label>
+    <br>
+    <input type="text" name="date" required class="newEvent">
+    <br>
+
+    <label class="newEvent">
+        <br> Time:
+    </label>
+    <br>
+    <input type="text" name="time" required class="newEvent">
+    <br />
+
+    
+    <a asp-area="" asp-controller="Admin" asp-action="AdminEventsList">Create +</a>
+    </form>

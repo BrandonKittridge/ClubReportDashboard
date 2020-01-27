@@ -1,4 +1,11 @@
-﻿<a asp-area="" asp-controller="Admin" asp-action="Index"> < Back</a>
+﻿
+@{
+    ViewData["Title"] = "Today's Events";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a asp-area="" asp-controller="Admin" asp-action="AdminEventSearch"> < Back</a>
 <br />
 <br />
 <br />
@@ -23,5 +30,4 @@
     </tr>
 </table>
 <br><br>
-<a asp-area="" asp-controller="Admin" asp-action="CreateUser">Create a new user</a><br />
-<a asp-area="" asp-controller="Admin" asp-action="EditUser">Edit Existing User</a>
+<a asp-area="" asp-controller="Admin" asp-action="CreateEvent">Create a new event</a><br />

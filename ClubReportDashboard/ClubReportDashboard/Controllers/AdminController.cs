@@ -24,6 +24,10 @@ namespace ClubReportDashboard.Controllers
         {
             return View();
         }
+        public IActionResult AdminEventsList()
+        {
+            return View();
+        }
         public IActionResult AdminUserList2()
         {
             return View();
@@ -34,7 +38,17 @@ namespace ClubReportDashboard.Controllers
             return View();
         }
 
+        public IActionResult CreateEvent()
+        {
+            return View();
+        }
+
         public IActionResult MonthlyReport()
+        {
+            return View();
+        }
+
+        public IActionResult QuarterlyReport()
         {
             return View();
         }
@@ -43,6 +57,12 @@ namespace ClubReportDashboard.Controllers
         {
             return View();
         }
+
+        public IActionResult EditEvent()
+        {
+            return View();
+        }
+
         public IActionResult EditUser()
         {
             return View();
