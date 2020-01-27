@@ -63,7 +63,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<h1>Login Below</h1>\r\n");
             EndContext();
             BeginContext(72, 351, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1ea8d0479b54c2d9da16fe356597cac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c163c6084724563a41189fcd6c088f6", async() => {
                 BeginContext(78, 178, true);
                 WriteLiteral("\r\n    Username: <br />\r\n    <input type=\"text\" name=\"username\"><br>\r\n    Password: <br />\r\n    <input type=\"password\" name=\"password\"><br>\r\n    <input type=\"button\" value=\"Login\"");
                 EndContext();

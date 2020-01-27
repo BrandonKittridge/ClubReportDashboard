@@ -47,5 +47,13 @@ namespace ClubReportDashboard.Controllers
         {
             return View();
         }
+        public IActionResult ModifyUser()
+        {
+            return View();
+        }
+        public IActionResult AdminReports()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,27 @@
+﻿<a asp-area="" asp-controller="Admin" asp-action="Index"> < Back</a>
+<br />
+<br />
+<br />
+<table style="width:100%">
+    <tr>
+        <th>Title</th>
+        <th>Location</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>Employment Training</td>
+        <td>Club Challenge Orange Park</td>
+        <td>Employment</td>
+        <td>Jan 3, 2020</td>
+        <td>1PM</td>
+        <td>
+            <input type="button" value="Edit" onclick="location.href='@Url.Action("EditEvent", "Admin")'" />
+        </td>
+    </tr>
+</table>
+<br><br>
+<a asp-area="" asp-controller="Admin" asp-action="CreateUser">Create a new user</a><br />
+<a asp-area="" asp-controller="Admin" asp-action="EditUser">Edit Existing User</a>

@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Modify User";
+}
+<h1>@ViewData["Title"]</h1>
+
+<!--<p>Use this page to order.</p>-->
+
+@model IEnumerable<User>
+@foreach (var p in Model)
+{
+    <div>
+        <p>
+            <h4>Name</h4>
+            <input type="text" value="@p.FirstName">
+            <input type="text" value="@p.LastName">
+
+            <br><br>
+            <h4>PIN</h4>
+            <input type="number" value="@p.PIN.ToString()">
+
+            <br><br>
+            <h4>User Preferences</h4>
+            <select id="exampleList" value="@p.Preference.ToString()">
+                <option value="1">Volunteering Activities</option>
+                <option value="2">Employment Activities</option>
+                <option value="3">Social Activities</option>
+            </select>
+
+            <br><br>
+            <h4>System</h4>
+            <input type="checkbox" checked=@p.IsAdmin> Admin User
+            <br>
+            <input type="checkbox" checked=@p.IsPastUser> Past User
+        </p>
+    </div>
+}
+

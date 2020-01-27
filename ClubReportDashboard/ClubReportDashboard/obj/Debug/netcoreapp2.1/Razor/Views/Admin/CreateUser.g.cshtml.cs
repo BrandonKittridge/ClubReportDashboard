@@ -57,7 +57,7 @@ using ClubReportDashboard.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "553fd4ea878943b28ee7622bce23bd59", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85cd2cc454f044c6aa8b6a5286b42c45", async() => {
                 BeginContext(65, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -83,7 +83,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<br><br>\r\n\r\n<h1>Create New User:</h1>\r\n<br>\r\n\r\n");
             EndContext();
             BeginContext(125, 2239, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "228dae645a6d41339a3205898ceed7da", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a72787e94ea5439484dfaa155c97dbe0", async() => {
                 BeginContext(148, 1608, true);
                 WriteLiteral(@"
     <label class=""newUser"">
@@ -144,7 +144,7 @@ using ClubReportDashboard.Models;
     ");
                 EndContext();
                 BeginContext(1756, 78, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0567ee3020fc439aa43aa401f719a073", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "849af9bbc3bc4719a4cdca4e791761ab", async() => {
                     BeginContext(1822, 8, true);
                     WriteLiteral("Create +");
                     EndContext();

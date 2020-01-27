@@ -67,7 +67,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n<h2>Generated Report</h2>\r\n\r\n");
             EndContext();
             BeginContext(84, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a19a07da89e54d2dba07e4929f5692e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61b490b6a2194cdda1e23373523c656c", async() => {
                 BeginContext(149, 7, true);
                 WriteLiteral(" < Back");
                 EndContext();
@@ -93,7 +93,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(164, 245, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4bac2bf668f426ea4e54517501a4400", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95f2a6ad62cf4b9c9b94d9cd64d2197f", async() => {
                 BeginContext(170, 232, true);
                 WriteLiteral("\r\n    <style>\r\n        table, th, td {\r\n            border: 1px solid black;\r\n            border-collapse: collapse;\r\n        }\r\n\r\n        th, td {\r\n            padding: 5px;\r\n            text-align: left;\r\n        }\r\n    </style>\r\n");
                 EndContext();
@@ -113,7 +113,7 @@ using ClubReportDashboard.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(411, 5366, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ef56cc87302a4defbf8b03d866df7579", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ac35f71cd964006ac67dd9f5bc0add8", async() => {
                 BeginContext(417, 3424, true);
                 WriteLiteral(@"
 

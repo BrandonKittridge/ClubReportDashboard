@@ -1,7 +1,7 @@
 ﻿<a asp-area="" asp-controller="Home" asp-action="Index"> < Back</a>
 <br><br>
 <a asp-area="" asp-controller="Admin" asp-action="CreateUser">Create a new user</a>
-<a asp-area="" asp-controller="UserAccount" asp-action="ModifyUser">Modify selected user</a>
+<a asp-area="" asp-controller="Admin" asp-action="ModifyUser">Modify selected user</a>
 
 @{
     ViewData["Title"] = "Users";
@@ -17,6 +17,6 @@
         <h3>@p.FirstName @p.LastName</h3>
 
         <!--this link doesn't modify a specific user yet-->
-        <a asp-area="" asp-controller="UserAccount" asp-action="ModifyUser">Modify</a>
+        <a asp-area="" asp-controller="Admin" asp-action="ModifyUser">Modify</a>
     </div>
 }
