@@ -20,6 +20,10 @@ namespace ClubReportDashboard.Controllers
         {
             return View();
         }
+        public IActionResult AdminEventSearch()
+        {
+            return View();
+        }
         public IActionResult AdminUserList2()
         {
             return View();

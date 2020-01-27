@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\N01068984\\Source\\Repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj": {}
+    "C:\\Users\\n01039829\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\N01068984\\Source\\Repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj": {
+    "C:\\Users\\n01039829\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\N01068984\\Source\\Repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+        "projectUniqueName": "C:\\Users\\n01039829\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
         "projectName": "ClubReportDashboard",
-        "projectPath": "C:\\Users\\N01068984\\Source\\Repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
-        "packagesPath": "C:\\Users\\N01068984\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\N01068984\\Source\\Repos\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
+        "projectPath": "C:\\Users\\n01039829\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard.csproj",
+        "packagesPath": "C:\\Users\\n01039829\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\n01039829\\Source\\Repos\\BrandonKittridge\\ClubReportDashboard\\ClubReportDashboard\\ClubReportDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\N01068984\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\n01039829\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
